@@ -1,0 +1,22 @@
+$(document).ready(function(){
+$('.owl-carousel.ptfl-owl-carousel').owlCarousel({
+    loop:false,
+    margin:10,
+    nav:true,
+    navText:[
+        'prev',
+        'next'
+    ],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+});
